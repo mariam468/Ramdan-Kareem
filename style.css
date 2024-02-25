@@ -1,0 +1,66 @@
+/*google font */
+@impot url('https://fonts.googleapis.com/css2?family=work+sans:initial,wght@0,400;0,500;0,600;0,700;1,700&display=swap')
+
+{ 
+   font-family: 'Work Sans', sans-serif;
+   margin:0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+*root{
+	  --clr-gold: #d39038;
+	  --clr-btn: #d33838;
+	  --clr-btn-bg: #fff;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index:1000;
+}
+
+header.logo{
+	position: relative;
+	color: var(--clr-btn);
+	display: inline-block:
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 5s;
+}
+	header .logo:hover{
+		color: var(--clr-btn);
+		
+	}
+
+	header ul{
+		position:relative;
+		display: flex;
+	}
+
+	header ul li{
+		list-style: none;
+
+	}
+	header ul li a {
+		display: inline-block;
+		color: var(--clr-btn);
+		background: var(--clr-btn-bg);
+
+	}
